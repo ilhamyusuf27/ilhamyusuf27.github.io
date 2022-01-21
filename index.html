@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Baju</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+    <!-- Boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="nav__logo">
+                <img src="img/logo.png" class="nav__logo-img" alt="logo">
+                Toko Baju
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#product" class="nav__link">product</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link discover">Discover</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#aboutus" class="nav__link">About Us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#acount" class="nav__link login">Login</a>
+                    </li>
+                </ul>
+                <div class="nav__search" id="nav-search">
+                    <i class='bx bx-search'></i>
+                </div>
+                <div class="nav__cls" id="nav-cls">
+                    <i class='bx bx-x' ></i>
+                </div>
+            </div>
+            
+            <div class="nav__btns" id="nav-btns">
+                <div class="nav__cart" id="nav-cart">
+                    <i class='bx bx-cart' ></i>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </div>
+            <div class="nav__account" id="nav-account">
+                <img src="img/Account.png" alt="Account">
+            </div>
+        </nav>
+    </header>
+    <div class="hero__container">
+        <div class="hero__img">
+            <img src="img/carousel.png" alt="">
+        </div>
+        <div class="hero__contain">
+            <h1 class="hero__title">Get Your Favorite Clothes</h1>
+            <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <div class="hero__button">
+                <p>Go Shop</p>
+                <i class='bx bx-chevron-right hero__next' ></i>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <section class="category section container">
+            <div class="category__header">
+                <h2 class="category__title">Category</h2>
+                <span class="line"></span>
+            </div>
+            
+
+
+            <div class="category__item grid">
+                <div class="category__card">
+                    <img src="img/category1.png" class="card__img" alt="">
+                    <div class="card__text">
+                        <h3>Men</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                    </div> 
+                </div>
+                <div class="category__card">
+                    <img src="img/category2.png" class="card__img" alt="">
+                    <div class="card__text">
+                        <h3>Woman</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                    </div> 
+                </div>
+                <div class="category__card">
+                    <img src="img/category3.png" class="card__img" alt="">
+                    <div class="card__text">
+                        <h3>Kid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <section class="flashsale">
+            <div class="flashsale__wrapper container section">
+                <div class="flashsale__header">
+                    <h2 class="flashsale__title">Flash Sale</h2>
+                    <span class="line"></span>
+                    <div class="countdown">
+                        <div class="hour"></div>
+                        <span>:</span>
+                        <div class="minute"></div>
+                        <span>:</span>
+                        <div class="second"></div>
+                    </div>
+                </div>
+                <div class="flashsale__container">
+                    <div class="swiper flashsale-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="flashsale__card swiper-slide">
+                                <img src="img/product1.png" alt="" class="flashsale__img">
+                                <div class="flashsale__txt">
+                                    <h2 class="flashsale__idr">$99.99</h2>
+                                    <span class="flashsale__name">Basic T-Shirt</span>
+                                </div>
+                                <button class="button__flashsale">
+                                    <i class='bx bx-cart' ></i>
+                                </button>
+                                
+                                <i class='bx bx-heart fav'></i>                          
+                            </article>
+    
+                            <article class="flashsale__card swiper-slide">
+                                <img src="img/product1.png" alt="" class="flashsale__img">
+                                <div class="flashsale__txt">
+                                    <h2 class="flashsale__idr">$99.99</h2>
+                                    <span class="flashsale__name">Basic T-Shirt</span>
+                                </div>
+                                <button class="button__flashsale">
+                                    <i class='bx bx-cart' ></i>
+                                </button>
+                                
+                                <i class='bx bx-heart fav'></i>                          
+                            </article>
+                            
+                            <article class="flashsale__card swiper-slide">
+                                <img src="img/product1.png" alt="" class="flashsale__img">
+                                <div class="flashsale__txt">
+                                    <h2 class="flashsale__idr">$99.99</h2>
+                                    <span class="flashsale__name">Basic T-Shirt</span>
+                                </div>
+                                <button class="button__flashsale">
+                                    <i class='bx bx-cart' ></i>
+                                </button>
+                                
+                                <i class='bx bx-heart fav'></i>                          
+                            </article>
+    
+                            <article class="flashsale__card swiper-slide">
+                                <img src="img/product1.png" alt="" class="flashsale__img">
+                                <div class="flashsale__txt">
+                                    <h2 class="flashsale__idr">$99.99</h2>
+                                    <span class="flashsale__name">Basic T-Shirt</span>
+                                </div>
+                                <button class="button__flashsale">
+                                    <i class='bx bx-cart' ></i>
+                                </button>
+                                
+                                <i class='bx bx-heart fav'></i>                          
+                            </article>
+    
+                            <article class="flashsale__card swiper-slide">
+                                <img src="img/product1.png" alt="" class="flashsale__img">
+                                <div class="flashsale__txt">
+                                    <h2 class="flashsale__idr">$99.99</h2>
+                                    <span class="flashsale__name">Basic T-Shirt</span>
+                                </div>
+                                <button class="button__flashsale">
+                                    <i class='bx bx-cart' ></i>
+                                </button>
+                                
+                                <i class='bx bx-heart fav'></i>                          
+                            </article>
+    
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services container section">
+            <div class="services__header">
+                <span class="line"></span>
+                <h2 class="services__title">Services</h2>
+                <span class="line"></span>
+            </div>
+            <div class="services__content">
+                <div class="services__item">
+                    <i class='bx bx-package services__icon' ></i>
+                    <h3 class="services__title">Free Shiping</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                </div>
+                
+                <div class="services__item">
+                    <i class='bx bx-package services__icon' ></i>
+                    <h3 class="services__title">Free Shiping</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                </div>
+
+                <div class="services__item">
+                    <i class='bx bx-package services__icon' ></i>
+                    <h3 class="services__title">Free Shiping</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimoni container section">
+            <div class="testimoni__header">
+                <span class="line"></span>
+                <h2 class="testimoni__title">Testimoni</h2>
+                <span class="line"></span>
+            </div>
+
+            <div class="swiper testimoni-swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimoni__card swiper-slide">
+                        <div class="testimoni__img">
+                            <img src="img/foto.png" class="" alt="">
+                        </div>
+                        <div class="testimoni__data">
+                            <h3 class="testimoni__nama">John West</h3>
+                            <p class="testimoni__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            </p>
+                            <div class="testimoni__rating">
+                                <i class='bx bxs-star gold' ></i>
+                                <i class='bx bxs-star gold' ></i>
+                                <i class='bx bxs-star gold' ></i>
+                                <i class='bx bxs-star gold' ></i>
+                                <i class='bx bxs-star grey' ></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimoni__card swiper-slide">
+                        <div class="testimoni__img">
+                            <img src="img/foto.png" class="" alt="">
+                        </div>
+                        <div class="testimoni__data">
+                            <h3 class="testimoni__nama">John West</h3>
+                            <p class="testimoni__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            </p>
+                            <div class="testimoni__rating">
+                                <i class='bx bxs-star gold' ></i>
+                                <i class='bx bxs-star gold' ></i>
+                                <i class='bx bxs-star gold' ></i>
+                                <i class='bx bxs-star gold' ></i>
+                                <i class='bx bxs-star grey' ></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimoni__card swiper-slide">
+                        <div class="testimoni__img">
+                            <img src="img/foto.png" class="" alt="">
+                        </div>
+                        <div class="testimoni__data">
+                            <h3 class="testimoni__nama">John West</h3>
+                            <p class="testimoni__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            </p>
+                            <div class="testimoni__rating">
+                                <i class='bx bxs-star gold' ></i>
+                                <i class='bx bxs-star gold' ></i>
+                                <i class='bx bxs-star gold' ></i>
+                                <i class='bx bxs-star gold' ></i>
+                                <i class='bx bxs-star grey' ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <h3 class="footer__title">©Toko Baju 2021</h3>
+            <div class="right__menu">
+                <div class="menu__wrapper">
+                    <ul class="footer__menu">
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#discover">Discover</a></li>
+                        <li><a href="#aboutus">About us</a></li>
+                        <li><a href="#contactus">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="social__media">
+                    <i class='bx bxl-instagram-alt pointer' ></i>
+                    <i class='bx bxl-facebook-square pointer' ></i>
+                    <i class='bx bxl-linkedin-square pointer' ></i>
+                    <i class='bx bxl-twitter pointer' ></i>
+                    <i class='bx bxl-google-plus pointer' ></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        
+    
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
